@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin:ital,wght@1,700&family=Rowdies:wght@700&display=swap');
 
-
+.navbar {
+    display: flex;
+    float: right;
+    justify-content: center;
+    align-items: center;
+}
 body {
     height: 100vh;
     display: flex;
