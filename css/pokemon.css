@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin:ital,wght@1,700&family=Rowdies:wght@700&display=swap');
+
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Cabin", sans-serif;
+    background: #e0eafc;
+    background: linear-gradient(
+    to bottom,
+    #cfdef3,
+    #e0eafc
+    );
+}
+
+.pokemon {
+    background: #f1f1f1;
+    min-width: 180px;
+    text-align: center;
+    padding: 25px;
+    border-radius: 6px;
+    border: 10px #f8d41f solid;
+    box-shadow: 1px 2px 4px;
+}
+
+.pokemon .name {
+    font-size: 3em;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #333;
+}
