@@ -11,7 +11,7 @@ fetch(apiUrl)
     .then( (pokemon) => generateHtml(pokemon))
 
 const generateHtml = (data) => {
-    console.log(data)
+    // console.log(data)
     const html = `
     <div class="name">${data.name}</div>
     <img src=${data.sprites.front_default}>
