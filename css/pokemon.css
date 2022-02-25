@@ -20,6 +20,16 @@ body {
 }
 
 .pokemon {
+    background-color: black;
+}
+
+ .pokie  {
+    width:  500px;
+    height: 250px;
+    margin: 15px;
+}
+
+.pokemon {
     background: #f1f1f1;
     min-width: 180px;
     text-align: center;
